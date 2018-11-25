@@ -1,0 +1,487 @@
+font-family: 'Dosis', sans-serif;
+font-family: 'Lato', sans-serif;
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family: 'Dosis', sans-serif;
+	color: #333333;
+	background-image: url(../images/education-body.png);
+}
+
+/* header star */
+.navbar{
+	background-color: #FFD338;
+}
+.logo-image{
+	width:80%;
+}
+.menu{}
+.menu ul li a{
+	font-size:18px;
+	color: white !important;
+	padding:0 15px !important;
+}
+.menu ul li a:hover{
+	background-color: #F05C5C;
+	border-radius:20px;
+}
+.custom_dropdown .custom_i{
+	color:white;
+}
+.search{
+	color: white;
+	padding:0 3px;
+}
+/* header end */
+
+/* banner start */
+.banner{
+	background-image: url(../images/education-banner.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center center;
+	min-height:700px;
+
+}
+.b-title{
+	
+}
+.b-title h1{
+	margin-top:250px;
+	 color: #1ec0ff;
+	 font-size:30px;
+	 font-weight:600;
+}
+.b-scroll{
+	margin-top:320px;
+}
+.b-scroll p{
+	color: #bbbbbb;
+}
+.b-scroll i{
+	color: #bbbbbb;
+}
+
+/* banner end */
+
+/* Kids1 start */
+.title{
+	margin-top:50px;
+}
+.title h1{
+	text-transform:uppercase;
+	font-size:25px
+	font-weight:600;
+}
+.title hr{
+	width:250px;
+	margin:0 auto;
+	border:none;
+	border-bottom:4px dashed #ffffff;
+}
+.schools{
+	margin-top:50px;
+}
+.schools h2{
+	font-size:25px;
+	font-weight:600;
+}
+.schools hr{
+	width:150px;
+	margin-left:0px;
+	border:1px solid #dddddd;
+}
+.schools p{}
+.schools img{}
+.schools_img{
+	margin-top:50px;
+}
+.kid_image{
+	border-radius:15px !important;
+}
+.schools_img img{
+	width:570px;
+	height:320px;
+}
+/* Kids1 end */
+
+/* Kids2 start */
+.kid2{
+	background-image: url(../images/education-bg-desiration.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center center;
+	min-height:400px;
+}
+.kids-2{
+	margin-top:50px;
+}
+.kids-2 img{}
+.kids-2 p{
+	margin-top:20px;
+	font-size:20px;
+	color: #fff;
+	font-weight:600;
+}
+/* Kids2 end */
+<!-- Card Group Start -->
+ .card{
+	border-radius:20px !important;
+ }
+
+ .header{
+	 border-top-left-radius:20px !important;
+	 border-top-right-radius:20px !important;
+	 position:relative;
+	 color: #fff;
+ }
+ .header-icon{
+ 	position:absolute;
+ 	top:10px !important;
+ 	right:10px !important;
+ 	margin:0 auto;
+ }
+ .card-body{
+ 	position:relative;
+ }
+ .pricing{
+	width:50px;
+	height:50px;
+	text-align: center;
+	color: #fff;
+	position: absolute;
+	top:-25px;
+	right:10px;
+ }
+ .pricing p:first-child{
+	font-size:20px;
+	font-weight:600;
+
+ }
+  .pricing p:last-child{
+	font-size:14px;
+	margin-top: -28px;
+ }
+ .body-title{
+ 	color: #1EC0FF;
+ 	font-size: 25px;
+ 	font-weight:600;
+ }
+.footer{
+	border-bottom-left-radius:20px !important;
+	border-bottom-right-radius:20px !important;
+	color: #000;
+}
+.button{
+	border-radius:25px;
+	text-align: center;
+	margin-top:20px;
+	margin-bottom:40px;
+}
+.icon{
+	outline:;
+}
+<!-- Card Group End -->
+
+/* Memorable Moments Start */
+.memorable-moment{
+	background-image: url(../images/education-memorable-moment.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin: 50px auto;
+}
+.memorable-moment hr{
+	width:20%;
+	border:2px dashed #fff;
+}
+.photo-gallery {
+	margin: 50px auto;
+}
+.custom_pg-img {
+	border-radius: 10px;
+	margin: 10px;
+}
+.mm-footer {
+	margin: 50px auto;
+}
+/* Memorable Moments End */
+
+/* twitter start */
+.card-body{}
+.twitter-icon{
+	color:#1EC0FF;
+	font-size:50px;
+}
+.card-text p:last-child{
+	color:#1EC0FF;
+	font-size:14px;
+}
+
+/* twitter end */
+
+/* teachers start */
+.teachers_team{
+	padding:50px 0;
+}
+.t-title{}
+.t-title h1{
+	text-transform:uppercase;
+	font-size:30px;
+}
+
+
+.t-title hr{
+	width:20%;
+	border:2px dashed #fff;
+}
+.first-t{
+	margin:15px 0;
+}
+.teacher-top2{
+	margin:10px 0;
+}
+.img{
+	background-color: #A9A9A9;
+	width:240px;
+	height:290px;
+	border-radius:10px;
+	margin-top:10px;
+}
+.img img{
+	width:100%;
+	height:100%;
+	border-radius:10px;
+}
+.name h1{
+	color: #1EC0FF;
+	font-size:25px;
+	margin-top:10px;
+}
+.t-icon i:first-child{
+	color: #4366FF;
+}
+.t-footer p{
+	text-decoration: underline;
+	font-weight:550;
+}
+.teacher-bottom2{
+	margin:15px 0;
+}
+/* teachers end */
+/* serivices start */
+.services{
+	height:450px;
+	background-image: url(../images/education-Recovered.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.s-title{
+	margin-top:100px;
+}
+.s-title h1{
+	text-transform:uppercase;
+	font-size:25px;
+	color: #56D47E;
+	font-weight:600;
+}
+.s-title hr{
+	width:15%;
+	border:2px dashed #fff;
+}
+/* serivices end */
+
+/* recent start */
+.recent{}
+/* top start */
+.left{
+	margin-top:30px;
+}
+.left h1{
+	text-transform:uppercase;
+	font-size:25px;
+	font-weight:700;
+	padding:10px;
+}
+.left hr{
+	width:40%;
+	border:2px dashed #fff;
+	margin-left:11px;
+}
+.right{
+	margin-top:30px;
+}
+.right h1{
+	text-transform:uppercase;
+	font-size:25px;
+	font-weight:700;
+	padding:10px;
+}
+.right hr{
+	width:27%;
+	border:2px dashed #fff;
+	margin-left:0px;
+}
+/* top end */
+
+/* bottom left start */
+.circle{
+	background-color: #1EC0FF;
+	width:100px;
+	height:100px;
+	border-radius:50%;
+}
+.circle-content{
+	margin-left:27px;
+}
+.circle-content h1{
+	color: #fff;
+    font-size: 55px;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+.circle-content p{
+	color: #fff;
+	font-size:30px;
+	margin-top:-25px;
+}
+.c-content{}
+.c-content h1{
+	font-size:25px;
+	font-weight:600;
+}
+.c-content p{
+	font-size:16px;
+	text-transform:uppercase;
+	font-weight: 500;
+}
+.three{
+	font-size:45px !important;
+}
+.c-content a{
+	text-transform: uppercase;
+	text-decoration:underline;
+}
+
+/* bottom left end */
+/* bottom right start */
+.r-img{}
+.r-img img{
+	border-radius:10px;
+}
+.a-content{}
+.a-content h1{
+	font-size:25px;
+	font-weight:600;
+}
+.a-content hr{
+	width:270px;
+	margin-left:0px;
+	border:1.5px dashed #1EC0FF;
+}
+.a-content p:last-child{
+	margin-top:-10px;
+}
+/* bottom right end */
+
+/* recent end */
+
+/* Contact Start */
+.contact {
+	background-color: white;
+	padding-bottom: 50px;	
+}
+.footer-bg {
+	background-image: url(../images/education-footer.png);
+	background-repeat: no-repeat;
+	background-position: top;
+	-webkit-background-size: cover;
+	background-size: cover;
+	min-height: 150px;
+}
+.contact-img{
+	width:150px;
+	margin-top:35px;
+	margin-bottom:10px;
+}
+.logo-content{
+	margin-top:25px; 
+}
+.logo-content p{
+	font-size:14px;
+}
+.custom-title{
+	margin-top:50px;
+}
+.custom-title h2{
+	font-size:18px !important;
+	text-transform:uppercase;
+	font-weight:600;
+	letter-spacing:1.9px;
+}
+.custom-hr1 {
+	width: 180px;
+	border: none;
+	margin-left:0;
+	border-bottom: 5px dotted #ffc852;
+}
+.custom-hr2 {
+	width: 180px;
+	border: none;
+	margin-left:0;
+	border-bottom: 5px dotted #56d47e;
+}
+.custom-hr3 {
+	width: 180px;
+	border: none;
+	margin-left:0;
+	border-bottom: 5px dotted #f05c5c;
+}
+.c-content{
+	margin-left:-11px;
+}
+.c-content p{
+	margin:10px;
+	font-size:12px;
+}
+.c-content span{
+	margin-right:14px;
+}
+.icon {
+	color: #DDDDDD;
+}
+.n-content{}
+.c-footer{
+	width:300px;
+}
+.c-icon {
+	font-size:14px;
+	color: #DDDDDD;
+	padding-left:3px;
+}
+/* Contact End */
+/* Footer Start */
+.e-footer {
+	background-color: #FFD338;
+	font-size: 18px;
+	font-weight: 600;
+	padding: 20px 0;
+	margin-bottom:-25px;
+}
+.f-menu .nav-item a {
+	color: #efeeef !important;
+	padding: 0 9px !important;
+}
+.f-copy-right p {
+	color: #efeeef !important;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: 'Lato', sans-serif;
+}
+/* Footer End */
