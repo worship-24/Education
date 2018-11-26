@@ -68,6 +68,9 @@ body{
 /* banner end */
 
 /* Kids1 start */
+.kid{
+	padding-bottom:50px;
+}
 .title{
 	margin-top:50px;
 }
@@ -187,17 +190,23 @@ body{
 <!-- Card Group End -->
 
 /* Memorable Moments Start */
-.memorable-moment{
+
+.memorable-moment{}
+.moment{
 	background-image: url(../images/education-memorable-moment.png);
 	background-repeat: no-repeat;
 	background-position: center center;
 	-webkit-background-size: cover;
 	background-size: cover;
-	margin: 50px auto;
+	padding:50px 0;
+	margin:20px 0;
 }
 .memorable-moment hr{
 	width:20%;
 	border:2px dashed #fff;
+}
+.common-title{
+	margin-top:40px;
 }
 .photo-gallery {
 	margin: 50px auto;
@@ -208,6 +217,10 @@ body{
 }
 .mm-footer {
 	margin: 50px auto;
+}
+.custom_btn{
+	background-color:transparent;
+
 }
 /* Memorable Moments End */
 
